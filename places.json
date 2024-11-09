@@ -1,0 +1,109 @@
+{
+  "data": {
+    "type": "FeatureCollection",
+    "properties": {
+      "RouterMetaData": {
+        "Waypoints": [
+          {
+            "request": [53.205406197923615, 56.84127582532452],
+            "coordinates": [53.205406197923615, 56.84127582532452]
+          },
+          {
+            "request": [53.210987, 56.84133],
+            "coordinates": [53.210987, 56.84133]
+          },
+          {
+            "request": [53.210987, 56.84133],
+            "coordinates": [53.210987, 56.84133]
+          }
+        ]
+      }
+    },
+    "features": [
+      {
+        "type": "FeatureCollection",
+        "properties": {
+          "boundedBy": [
+            [53.205163, 56.84126608893511],
+            [53.210987, 56.84190699999999]
+          ],
+          "RouteMetaData": {
+            "type": "pedestrian",
+            "Duration": { "value": 336, "text": "6 min" },
+            "WalkingDistance": { "value": 467, "text": "0.29 mi" }
+          }
+        },
+        "features": [
+          {
+            "type": "FeatureCollection",
+            "properties": {
+              "boundedBy": [
+                [53.20516300000003, 56.84190699999258],
+                [53.21098699999999, 56.84126599999258]
+              ],
+              "PathMetaData": {
+                "Duration": { "value": 336, "text": "6 мин" },
+                "WalkingDistance": { "value": 467, "text": "470 м" }
+              },
+              "encodedCoordinates": "ntkrAzxUYwMv____9v____P___9VAAAAAgAAAKIAAADp____hQAAAG8AAAAFAAAAPQAAAAMAAAC5AwAALwAAACoAAAAiAAAAFAAAAAkAAAAPAAAAAwAAAHwCAAAeAAAAfgAAAAcAAACBAAAACAAAALYAAAAGAAAAdQAAAAcAAAC5AgAAKgAAACIAAAD-____HQAAAPf___8uAAAA6v___6gAAAAeAAAAkAAAABkAAAA0AAAAAQAAALkAAAAIAAAAHQAAAP____8WAAAA-____ykAAADx____FQAAAPz___8cAAAA_f___yUCAAAWAAAAgAAAAAoAAABiAAAACAAAAIIAAAALAAAAUgAAAAYAAAASAAAAwv___wcAAADk____DAAAANL___9eAAAABgAAAAcAAADh____BwAAAOD___8YAAAAlP___wcAAADi____BwAAAOD___8dAAAAfP___-ECAACu____"
+            },
+            "features": [
+              {
+                "type": "FeatureCollection",
+                "properties": {
+                  "SegmentMetaData": {
+                    "Walk": true,
+                    "text": "470 м, 6 мин в пути",
+                    "Duration": { "value": 336, "text": "6 min" },
+                    "Distance": { "value": 467, "text": "0.29 mi" }
+                  }
+                },
+                "features": [
+                  {
+                    "type": "Feature",
+                    "geometry": { "type": "LineString", "lodIndex": 0 }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "FeatureCollection",
+            "properties": {
+              "boundedBy": [
+                [53.21098699999999, 56.84132999999257],
+                [53.21098699999999, 56.84132999999257]
+              ],
+              "PathMetaData": {
+                "Duration": { "value": 0, "text": "0 сек" },
+                "WalkingDistance": { "value": 0, "text": "0 м" }
+              },
+              "encodedCoordinates": "a-8rA3JUYwMAAAAAAAAAAA"
+            },
+            "features": [
+              {
+                "type": "FeatureCollection",
+                "properties": {
+                  "SegmentMetaData": {
+                    "Walk": true,
+                    "text": "0 сек в пути",
+                    "Duration": { "value": 0, "text": "0 sec" },
+                    "Distance": { "value": 0, "text": "0 ft" }
+                  }
+                },
+                "features": [
+                  {
+                    "type": "Feature",
+                    "geometry": { "type": "LineString", "lodIndex": 0 }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
